@@ -23,11 +23,17 @@ nav ul li {
   background: rgba(255,255, 255, 0.3);
 }
 
-footer ul {
+footer flex {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
   font-size: 1rem;
 }
 
-footer li {
+footer .flex div {
+  border: 1px solid #fff;
   list-style: none;
+  flex-shrink: 3;
+  flex-basis: auto;
 }
